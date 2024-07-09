@@ -1,0 +1,1311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./vendor/fontawesome/css/all.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Điện thoại</title>
+</head>
+<body>
+<!----------------------------------------------------header------------------------------------------------->
+<header>
+    <img src="./vendor/image/ảnh header.webp" alt="">
+</header>
+<!----------------------------------------------------nav---------------------------------------------------->
+<nav>
+    <div class="container">
+        <ul>
+            <li><a href="./index.html"><img style="width: 250px;" src="./vendor/image/ảnh logo.webp" alt=""></a></li>
+            <li id="address-form"><a href="#">Đà Nẵng<i class="fas fa-sort-down"></i></a></li>
+            <li><input type="text" placeholder="Bạn tìm gì..."><i class="fas fa-search"></i></li>
+            <li><a href=""></a><button><i class="fas fa-cart-shopping"></i>Giỏ hàng</button></li>
+            <li><a href="">Lịch sử <br> đơn hàng</a></li>
+            <li><a href=""><span class="btn-content"><span class="btn-top"></span></span>Mua thẻ nạp ngay!</a></li>
+            <li><a href="">24h <br> công nghệ</a></li>
+            <li><a href="">Hỏi đáp</a></li>
+            <li><a href="">Game app</a></li>
+                <div class="address-form">
+                    <div class="address-form-content">
+                        <h2>Chọn địa chỉ nhận hàng <span id="address-close">X Đóng</span></h2>
+                        <form action="">
+                            <p>Chọn đầy đủ địa chỉ nhận hàng để biết chính xác thời gian giao</p>
+                            <select name="">
+                                <option value="#">-- Chọn địa điểm</option>
+                                <option value="#">Hà Nội</option>
+                            </select>
+                            <select name="">
+                                <option value="#">-- Chọn Quận\Huyện</option>
+                                <option value="#">Hà Đông</option>
+                                <option value="#">Đống Đa</option>
+                                <option value="#">Cầu Giấy</option>
+                            </select>
+                            <select name="">
+                                <option value="#">-- Chọn Phường\Xã</option>
+                                <option value="#">Quang Trung</option>
+                                <option value="#">Hà Cầu</option>
+                                <option value="#">Phú Lương</option>
+                            </select>
+                            <input type="text" placeholder="Số nhà, tên đường">
+                            <button>Xác nhận</button>
+                        </form>
+                    </div>
+                </div>
+        </ul>
+    </div>
+</nav>
+<!----------------------------------------------------menu-bar----------------------------------------------->
+<section class="menu-bar">
+    <div class="container">
+        <div class="menu-bar-content">
+            <ul>
+                <li><a href="./dienthoai.html"><i class="fa-solid fa-mobile-screen-button"></i>Điện thoại</a></li>
+                <li><a href="./laptop.html"><i class="fa-solid fa-laptop"></i>Laptop</a></li>
+                <li><a href="./tablet.html"><i class="fa-solid fa-tablet"></i>Tablet</a></li>
+                <li><a href=""><i class="fa-solid fa-headphones-simple"></i>Phụ kiện <i style="margin-left: 4px;" class="fas fa-sort-down"></i></a>
+                    <div class="submenu">
+                        <ul>
+                            <li><a href="">Sạc dự phòng</a></li>
+                            <li><a href="">Ốp lưng điện thoại</a></li>
+                            <li><a href="">Ốp lưng máy tính bảng</a></li>
+                            <li><a href="">Miếng dán Camera</a></li>
+                            <li><a href="">Túi đựng AirPods</a></li>
+                            <li><a href="">Tai nghe dây</a></li>
+                            <li><a href="">Tai nghe Bluetooth</a></li>
+                            <li><a href="">Giá đỡ điện thoại</a></li>
+                            <li><a href="">Loa</a></li>
+                            <li><a href="">Micro</a></li>
+                            <li><a href="">Camera ngoài trời</a></li>
+                            <li><a href="">Chuột máy tính</a></li>
+                            <li><a href="">Bàn phím</a></li>
+                            <li><a href="">Giá đỡ Laptop</a></li>
+                            <li><a href="">Router - Thiết bị mạng</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="./dongho.html"><i class="fa-solid fa-stopwatch-20"></i>Đồng hồ</a></li>
+                <li><a href=""><i class="fa-solid fa-mobile-screen-button"></i>Máy cũ, Thu cũ <i style="margin-left: 4px;" class="fas fa-sort-down"></i></a>
+                    <div class="submenu">
+                        <ul>
+                            <li><a href="">Máy cũ giá rẻ</a></li>
+                            <li><a href="">Thu cũ đổi mới</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="./pcmayin.html"><i class="fa-solid fa-desktop"></i>PC, Máy in <i style="margin-left: 4px;" class="fas fa-sort-down"></i></a>
+                    <div class="submenu">
+                        <ul>
+                            <li><a href="">Máy in</a></li>
+                            <li><a href="">Mực in</a></li>
+                            <li><a href="">Màn hình máy tính</a></li>
+                            <li><a href="">Máy tính để bàn</a></li>
+                            <li><a href="">Máy chơi game cầm tay</a></li>
+                            <li><a href="">Phần mềm</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="./maycugiare.html">Máy cũ giá rẻ</a></li>
+                <li><a href="./simthecao.html">Sim, thẻ cào</a></li>
+                <li><a href="./tragopdiennuoc.html">Trả góp, điện nước</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+<!----------------------------------------------------banner headher----------------------------------------->
+<section class="banner-header">
+    <img src="./vendor/image/banner header.webp" alt="">
+</section>
+<!----------------------------------------------------slider------------------------------------------------->
+<section class="slider">
+    <div class="container">
+        <div class="slider-content-left">
+            <div class="slider-content-left-top-container">
+                <div class="slider-content-left-top">
+                    <a href=""><img src="./vendor/image/Ảnh slider 1.png" alt=""></a>
+                    <a href=""><img src="./vendor/image/Ảnh slider 2.png" alt=""></a>
+                    <a href=""><img src="./vendor/image/Ảnh slider 3.jpg" alt=""></a>
+                    <a href=""><img src="./vendor/image/Ảnh slider 4.jpg" alt=""></a>
+                    <a href=""><img src="./vendor/image/Ảnh slider 5.jpg" alt=""></a>
+                </div>
+                <div class="slider-content-left-top-btn">
+                    <i class="fa-solid fa-chevron-left"></i>
+                    <i class="fa-solid fa-chevron-right"></i> 
+                </div>
+            </div>
+            <div class="slider-content-left-bottom">
+                <li class="active">Realme C65</li>
+                <li>Vivo Y28</li>
+                <li>Galaxy S23 Ultra</li>
+                <li>Redmi 13</li>
+                <li>iPhone 13</li>
+            </div>
+        </div>
+    </div>
+</section>
+<!----------------------------------------------------banner------------------------------------------------->
+<section class="banner-one">
+    <div class="container">
+        <img src="./vendor/image/ảnh banner 1.webp" alt="">
+    </div>
+</section>
+<!----------------------------------------------------product gallery 1-------------------------------------->
+<section class="product-gallery-one">
+    <div class="container">
+        <div class="product-gallery-one-content">
+            <div class="product-gallery-one-content-title">
+                <h2>TUẦN LỄ APPLE - GIẢM ĐẾN 5 TRIỆU - TRẢ GÓP 0%</h2>
+                <ul>
+                    <li><a href="">iPhone 15 Pro Max</a></li>
+                    <li><a href="">MacBook Air</a></li>
+                    <li><a href="">iPad Pro M4</a></li>
+                </ul>
+            </div>
+            <div class="product-gallery-one-content-product">
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 1.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>iPhone 15 Pro Max 256GB</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">29.390.000<sup>đ</sup></a><span>-16%</span></li>
+                        <li>24.687.600<sup>đ</sup></li>
+                        
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 2.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>iPad Pro M4 11 inch Wifi 256GB</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">28.990.000<sup>đ</sup></a><span>-10%</span></li>
+                        <li>26.091.000<sup>đ</sup></li>
+                        
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 3.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>Apple Watch Series 9 GPS 41mm viền nhôm dây thể thể thao</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">9.890.000<sup>đ</sup></a><span>-5%</span></li>
+                        <li>9.395.500<sup>đ</sup></li>
+                        
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 4.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>AirPods 3 Lightning</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">4.090.000<sup>đ</sup></a><span>-8%</span></li>
+                        <li>3.762.800<sup>đ</sup></li>
+                        
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 5.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>iPhone 13 128GB</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">13.890.000<sup>đ</sup></a><span>-21%</span></li>
+                        <li>10.973.100<sup>đ</sup></i>
+                        
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 6.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>iPad Air 6 M2 11 inch Wifi 128GB</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">16.990.000<sup>đ</sup></a><span>-10%</span></li>
+                        <li>15.291.000<sup>đ</sup></li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 7.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>Apple Watch SE 2023 GPS 40mm viền nhôm dây thể thao</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">6.190.000<sup>đ</sup></a><span>-10%</span></li>
+                        <li>5.571.000<sup>đ</sup></li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 11.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>iPad 10 Wifi 64GB</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">10.290.000<sup>đ</sup></a><span>-10%</span></li>
+                        <li>9.261.000<sup>đ</sup></li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 9.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>AirPods Pro Gen 2 (USB - C)</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">5.690.000<sup>đ</sup></a><span>-8%</span></li>
+                        <li>5.234.800<sup>đ</sup></li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 10.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>iPhone 15 128GB</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">19.190.000<sup>đ</sup></a><span>-16%</span></li>
+                        <li>16.119.600<sup>đ</sup></li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 1.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>iPhone 15 Pro Max 256GB</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">29.390.000<sup>đ</sup></a><span>-16%</span></li>
+                        <li>24.687.600<sup>đ</sup></li>
+                        
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 2.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>iPad Pro M4 11 inch Wifi 256GB</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">28.990.000<sup>đ</sup></a><span>-10%</span></li>
+                        <li>26.091.000<sup>đ</sup></li>
+                        
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 3.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>Apple Watch Series 9 GPS 41mm viền nhôm dây thể thể thao</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">9.890.000<sup>đ</sup></a><span>-5%</span></li>
+                        <li>9.395.500<sup>đ</sup></li>
+                        
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 4.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>AirPods 3 Lightning</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">4.090.000<sup>đ</sup></a><span>-8%</span></li>
+                        <li>3.762.800<sup>đ</sup></li>
+                        
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 5.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>iPhone 13 128GB</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">13.890.000<sup>đ</sup></a><span>-21%</span></li>
+                        <li>10.973.100<sup>đ</sup></i>
+                        
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 6.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>iPad Air 6 M2 11 inch Wifi 128GB</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">16.990.000<sup>đ</sup></a><span>-10%</span></li>
+                        <li>15.291.000<sup>đ</sup></li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 7.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>Apple Watch SE 2023 GPS 40mm viền nhôm dây thể thao</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">6.190.000<sup>đ</sup></a><span>-10%</span></li>
+                        <li>5.571.000<sup>đ</sup></li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 11.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>iPad 10 Wifi 64GB</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">10.290.000<sup>đ</sup></a><span>-10%</span></li>
+                        <li>9.261.000<sup>đ</sup></li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 9.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>AirPods Pro Gen 2 (USB - C)</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">5.690.000<sup>đ</sup></a><span>-8%</span></li>
+                        <li>5.234.800<sup>đ</sup></li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 10.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>iPhone 15 128GB</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">19.190.000<sup>đ</sup></a><span>-16%</span></li>
+                        <li>16.119.600<sup>đ</sup></li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 1.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>iPhone 15 Pro Max 256GB</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">29.390.000<sup>đ</sup></a><span>-16%</span></li>
+                        <li>24.687.600<sup>đ</sup></li>
+                        
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 2.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>iPad Pro M4 11 inch Wifi 256GB</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">28.990.000<sup>đ</sup></a><span>-10%</span></li>
+                        <li>26.091.000<sup>đ</sup></li>
+                        
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 3.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>Apple Watch Series 9 GPS 41mm viền nhôm dây thể thể thao</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">9.890.000<sup>đ</sup></a><span>-5%</span></li>
+                        <li>9.395.500<sup>đ</sup></li>
+                        
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 4.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>AirPods 3 Lightning</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">4.090.000<sup>đ</sup></a><span>-8%</span></li>
+                        <li>3.762.800<sup>đ</sup></li>
+                        
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 5.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>iPhone 13 128GB</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">13.890.000<sup>đ</sup></a><span>-21%</span></li>
+                        <li>10.973.100<sup>đ</sup></i>
+                        
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 6.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>iPad Air 6 M2 11 inch Wifi 128GB</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">16.990.000<sup>đ</sup></a><span>-10%</span></li>
+                        <li>15.291.000<sup>đ</sup></li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 7.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>Apple Watch SE 2023 GPS 40mm viền nhôm dây thể thao</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">6.190.000<sup>đ</sup></a><span>-10%</span></li>
+                        <li>5.571.000<sup>đ</sup></li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 11.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>iPad 10 Wifi 64GB</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">10.290.000<sup>đ</sup></a><span>-10%</span></li>
+                        <li>9.261.000<sup>đ</sup></li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 9.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>AirPods Pro Gen 2 (USB - C)</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">5.690.000<sup>đ</sup></a><span>-8%</span></li>
+                        <li>5.234.800<sup>đ</sup></li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 10.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>iPhone 15 128GB</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">19.190.000<sup>đ</sup></a><span>-16%</span></li>
+                        <li>16.119.600<sup>đ</sup></li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 1.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>iPhone 15 Pro Max 256GB</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">29.390.000<sup>đ</sup></a><span>-16%</span></li>
+                        <li>24.687.600<sup>đ</sup></li>
+                        
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 2.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>iPad Pro M4 11 inch Wifi 256GB</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">28.990.000<sup>đ</sup></a><span>-10%</span></li>
+                        <li>26.091.000<sup>đ</sup></li>
+                        
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 3.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>Apple Watch Series 9 GPS 41mm viền nhôm dây thể thể thao</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">9.890.000<sup>đ</sup></a><span>-5%</span></li>
+                        <li>9.395.500<sup>đ</sup></li>
+                        
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 4.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>AirPods 3 Lightning</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">4.090.000<sup>đ</sup></a><span>-8%</span></li>
+                        <li>3.762.800<sup>đ</sup></li>
+                        
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 5.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>iPhone 13 128GB</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">13.890.000<sup>đ</sup></a><span>-21%</span></li>
+                        <li>10.973.100<sup>đ</sup></i>
+                        
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 6.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>iPad Air 6 M2 11 inch Wifi 128GB</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">16.990.000<sup>đ</sup></a><span>-10%</span></li>
+                        <li>15.291.000<sup>đ</sup></li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 7.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>Apple Watch SE 2023 GPS 40mm viền nhôm dây thể thao</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">6.190.000<sup>đ</sup></a><span>-10%</span></li>
+                        <li>5.571.000<sup>đ</sup></li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 11.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>iPad 10 Wifi 64GB</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">10.290.000<sup>đ</sup></a><span>-10%</span></li>
+                        <li>9.261.000<sup>đ</sup></li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 9.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>AirPods Pro Gen 2 (USB - C)</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">5.690.000<sup>đ</sup></a><span>-8%</span></li>
+                        <li>5.234.800<sup>đ</sup></li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 10.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>iPhone 15 128GB</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">19.190.000<sup>đ</sup></a><span>-16%</span></li>
+                        <li>16.119.600<sup>đ</sup></li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 1.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>iPhone 15 Pro Max 256GB</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">29.390.000<sup>đ</sup></a><span>-16%</span></li>
+                        <li>24.687.600<sup>đ</sup></li>
+                        
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 2.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>iPad Pro M4 11 inch Wifi 256GB</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">28.990.000<sup>đ</sup></a><span>-10%</span></li>
+                        <li>26.091.000<sup>đ</sup></li>
+                        
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 3.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>Apple Watch Series 9 GPS 41mm viền nhôm dây thể thể thao</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">9.890.000<sup>đ</sup></a><span>-5%</span></li>
+                        <li>9.395.500<sup>đ</sup></li>
+                        
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 4.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>AirPods 3 Lightning</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">4.090.000<sup>đ</sup></a><span>-8%</span></li>
+                        <li>3.762.800<sup>đ</sup></li>
+                        
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 5.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>iPhone 13 128GB</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">13.890.000<sup>đ</sup></a><span>-21%</span></li>
+                        <li>10.973.100<sup>đ</sup></i>
+                        
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 6.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>iPad Air 6 M2 11 inch Wifi 128GB</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">16.990.000<sup>đ</sup></a><span>-10%</span></li>
+                        <li>15.291.000<sup>đ</sup></li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 7.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>Apple Watch SE 2023 GPS 40mm viền nhôm dây thể thao</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">6.190.000<sup>đ</sup></a><span>-10%</span></li>
+                        <li>5.571.000<sup>đ</sup></li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 11.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>iPad 10 Wifi 64GB</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">10.290.000<sup>đ</sup></a><span>-10%</span></li>
+                        <li>9.261.000<sup>đ</sup></li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 9.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>AirPods Pro Gen 2 (USB - C)</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">5.690.000<sup>đ</sup></a><span>-8%</span></li>
+                        <li>5.234.800<sup>đ</sup></li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 10.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>iPhone 15 128GB</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">19.190.000<sup>đ</sup></a><span>-16%</span></li>
+                        <li>16.119.600<sup>đ</sup></li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 1.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>iPhone 15 Pro Max 256GB</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">29.390.000<sup>đ</sup></a><span>-16%</span></li>
+                        <li>24.687.600<sup>đ</sup></li>
+                        
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 2.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>iPad Pro M4 11 inch Wifi 256GB</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">28.990.000<sup>đ</sup></a><span>-10%</span></li>
+                        <li>26.091.000<sup>đ</sup></li>
+                        
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 3.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>Apple Watch Series 9 GPS 41mm viền nhôm dây thể thể thao</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">9.890.000<sup>đ</sup></a><span>-5%</span></li>
+                        <li>9.395.500<sup>đ</sup></li>
+                        
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 4.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>AirPods 3 Lightning</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">4.090.000<sup>đ</sup></a><span>-8%</span></li>
+                        <li>3.762.800<sup>đ</sup></li>
+                        
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 5.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>iPhone 13 128GB</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">13.890.000<sup>đ</sup></a><span>-21%</span></li>
+                        <li>10.973.100<sup>đ</sup></i>
+                        
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 6.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>iPad Air 6 M2 11 inch Wifi 128GB</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">16.990.000<sup>đ</sup></a><span>-10%</span></li>
+                        <li>15.291.000<sup>đ</sup></li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 7.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>Apple Watch SE 2023 GPS 40mm viền nhôm dây thể thao</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">6.190.000<sup>đ</sup></a><span>-10%</span></li>
+                        <li>5.571.000<sup>đ</sup></li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 11.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>iPad 10 Wifi 64GB</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">10.290.000<sup>đ</sup></a><span>-10%</span></li>
+                        <li>9.261.000<sup>đ</sup></li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 9.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>AirPods Pro Gen 2 (USB - C)</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">5.690.000<sup>đ</sup></a><span>-8%</span></li>
+                        <li>5.234.800<sup>đ</sup></li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="./vendor/image/ảnh product gallery 10.webp" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="./vendor/image/slider product icon 1.webp" alt=""><p>GIẢM THÊM HSSV/GV</p></li>
+                        <li>iPhone 15 128GB</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">19.190.000<sup>đ</sup></a><span>-16%</span></li>
+                        <li>16.119.600<sup>đ</sup></li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!----------------------------------------------------product banner 2--------------------------------------->
+<section class="product-banner-two">
+    <div class="container">
+        <div class="product-banner-two-content">
+            <h2>CHUYÊN TRANG THƯƠNG HIỆU</h2>
+            <img src="./vendor/image/product banner 2.webp" alt="">
+            <img src="./vendor/image/product banner 3.webp" alt="">
+            <img src="./vendor/image/product banner 4.webp" alt="">
+        </div>
+    </div>
+</section>
+<!----------------------------------------------------product banner 3--------------------------------------->
+<section class="product-banner-three">
+    <div class="container">
+        <div class="product-banner-three-content">
+            <h2>CHUỖI MỚI DEAL KHỦNG</h2>
+            <img src="./vendor/image/product banner 4.webp" alt="">
+            <img src="./vendor/image/product banner 5.webp" alt="">
+            <img src="./vendor/image/product banner 6.webp" alt="">
+        </div>
+    </div>
+</section>
+<!----------------------------------------------------footer-content 1--------------------------------------->
+<section class="footer-content-one">
+    <div class="container">
+        <div class="footer-content-one-container">
+            <div class="column">
+                <div class="text"><a href="">Tích điểm Quà tặng VIP</a></div>
+                <div class="text"><a href="">Lịch sử mua hàng</a></div>
+                <div class="text"><a href="">Tìm hiểu về mua trả góp</a></div>
+                <div class="text"><a href="">Chính sách bảo hành</a></div>
+                <div class="text"><a href="">Xem thêm</a></div>
+            </div>
+            <div class="column">
+                <div class="text"><a href="">Giới thiệu công ty (MWG.vn)</a></div>
+                <div class="text"><a href="">Tuyển dụng</a></div>
+                <div class="text"><a href="">Gửi góp ý, khiếu nại</a></div>
+                <div class="text"><a href="">Tìm siêu thị (3.054 shop)</a></div>
+                <div class="text"><a href="">Xem bản mobile</a></div>
+            </div>
+            <div class="column">
+                <div class="text"><a href="">Tổng đài hỗ trợ</a></div>
+                <div class="text"><a href="">Gọi mua: 1900 232 460 (7:30 - 22:00)</a></div>
+                <div class="text"><a href="">Khiếu nại: 1800.1062 (8:00 - 21:30)</a></div>
+                <div class="text"><a href="">Bảo hành: 1900 232 464 (8:00 - 21:00)</a></div>
+            </div>
+            <div class="column">
+                <div class="text-one">
+                    <div class="text-one-content">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href="">3886.8k Fan</a>
+                    </div>
+                    <div class="text-one-content">
+                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                        <a href="">867k Đăng ký</a>
+                    </div>
+                    <div class="text-one-content">
+                        <a href=""><i class="fa-brands fa-square-youtube"></i></a>
+                        <a href="">Zalo TGDĐ</a>
+                    </div>
+                </div>
+                <div class="text-two">
+                    <div class="text-two-content">
+                        <a href=""><img src="./vendor/image/icon footer 1.png" alt=""></a>
+                        <a href=""><img src="./vendor/image/icon 2 footer 1.png" alt=""></a>
+                        <a href=""><img src="./vendor/image/icon 3 footer 1.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="text-three">
+                    <div class="text-three-content">
+                        <a href=""><img src="./vendor/image/icon 3 footer 1.png" alt=""></a>
+                        <a href=""><img src="./vendor/image/icon 3 footer 1.png" alt=""></a>
+                        <a href=""><img src="./vendor/image/icon 3 footer 1.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!----------------------------------------------------footer-content 2--------------------------------------->
+<section class="footer-content-two">
+    <div class="container">
+        <div class="footer-content-two-container">
+            <p>© 2018. Công ty cổ phần Thế Giới Di Động. GPDKKD: 0303217354 do sở KH & ĐT TP.HCM cấp ngày 02/01/2007. 
+                GPMXH: 238/GP-BTTTT do Bộ Thông Tin và Truyền Thông cấp ngày 04/06/2020. Địa chỉ: 128 Trần Quang Khải, 
+                P.Tân Định, Q.1, TP.Hồ Chí Minh. Địa chỉ liên hệ và gửi chứng từ: Lô T2-1.2, Đường D1, Đ. D1, P.Tân Phú, 
+                TP.Thủ Đức, TP.Hồ Chí Minh. Điện thoại: 028 38125960. Email: cskh@thegioididong.com. Chịu trách nhiệm nội dung: 
+                Huỳnh Văn Tốt. Email: hotrotmdt@thegioididong.com.</p>
+        </div>
+    </div>
+</section>
+<script src="./style.js"></script>
+</body>
+</html>
